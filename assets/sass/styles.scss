@@ -8,18 +8,13 @@
 
     .bd-masthead {
         padding: 5rem 0;
-        // background: linear-gradient(180deg,
-        //             rgba(var(--bd-dark-red-rgb), 0.98),
-        //             rgba(0, 0, 0, 0.98) 100%); // Red to black gradient
-        background: linear-gradient(180deg,
-                rgba(0, 0, 0, 0.95),
-                rgba(var(--bd-dark-red-rgb), 0.1) 85%);
+        background: #000; // solid black background for better button visibility
         color: white;
     }
 
     .btn-bd-primary {
         --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
+        --bs-btn-color: #4285F4; // Google Blue for button text
         --bs-btn-bg: var(--bd-dark-red); 
         --bs-btn-border-color: var(--bd-dark-red);
         --bs-btn-border-radius: 2rem;
@@ -47,7 +42,7 @@
 }
 
 .navbar {
-    @extend .navbar-dark;
+    background-color: #000000;
     padding: 1.5rem 0;
     background: linear-gradient(180deg,
              rgba(var(--bd-dark-red-rgb), 0.98),
@@ -58,7 +53,7 @@
 h1,
 h2,
 h3 {
-    font-family: 'New Century Schoolbook', serif;
+    font-family: 'Calibri', serif;
     font-weight: 200;
     // letter-spacing: -0.02em;
 }
@@ -146,7 +141,7 @@ footer.bg-light {
 
 // Typography
 h1, h2, h3, h4, h5, h6 {
-    font-family: "New Century Schoolbook", "Century Schoolbook", Georgia, serif;
+    font-family: "Calibri", sans-serif;
 }
 
 // Keep content sections transparent

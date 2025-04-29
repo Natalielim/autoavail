@@ -1,4 +1,4 @@
-# Stitched Social User Stories
+# autoAvail for GCal User Stories
 
 ## AI Onboarding & Profile Creation
 1. As a new member, I want to complete a 20-minute AI onboarding call, so that I can share my preferences and relationship goals efficiently.

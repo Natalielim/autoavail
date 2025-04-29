@@ -1,9 +1,9 @@
 # hugo-mock-landing-page
 
-# Stitched Social
+# autoAvail for GCal
 
-## About Stitched Social
-Stitched Social is a modern, AI-driven matchmaking service that revolutionizes how people find meaningful relationships. By combining AI technology with social matchmaking elements, we deliver a more effective, community-driven, and personalized approach to dating – all at less than 1/10th the cost of traditional matchmaking.
+## About autoAvail for GCal
+autoAvail for GCal is a modern, AI-driven matchmaking service that revolutionizes how people find meaningful relationships. By combining AI technology with social matchmaking elements, we deliver a more effective, community-driven, and personalized approach to dating – all at less than 1/10th the cost of traditional matchmaking.
 
 Our platform offers:
 - AI-driven personalized matching

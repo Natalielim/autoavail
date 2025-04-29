@@ -1,7 +1,17 @@
-baseURL = 'https://natalielim.github.io/hugo-mock-landing-page/'
-title = "Stitched Social"
-author = "Natalie Lim"
-copyright = "Natalie Lim, 2025"
+baseURL = 'http://localhost:1313/'
+title = "AutoAvail"
+author = "Clyve Gassant, Hemosoo Woo, Natalie Lim, and Prithvi Bale"
+copyright = "Team 12, 2025"
+
+# Development-specific baseURL
+[server]
+  [[server.headers]]
+    for = "/**"
+    [server.headers.values]
+      Access-Control-Allow-Origin = "*"
+
+[development]
+  baseURL = "http://localhost:1313/"
 
 timeZone = 'America/New_York'
 
@@ -42,17 +52,10 @@ enableEmoji = true
   [module.hugoVersion]
     extended = true
     min = "0.99.1"
-    max = ""
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-  [[module.mounts]]
-    source = "themes/hugo-bootstrap-theme/static"
-    target = "static"
-    excludeFiles = ["images/feather/**"]
+
+[params]
+  description = "Chrome extension enabling real-time meeting scheduling in Gmail"
+  featherIconsPath = "/images/feather/icons/"
 
 # Disable RSS feed generation
 disableKinds = ["RSS", "taxonomy", "term"]
@@ -63,6 +66,3 @@ disableKinds = ["RSS", "taxonomy", "term"]
   section = ["HTML"]
   taxonomy = ["HTML"]
   term = ["HTML"]
-
-[params]
-  featherIconsPath = "/images/feather/icons/"
