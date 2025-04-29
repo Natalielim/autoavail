@@ -1,15 +1,15 @@
-# hugo-mock-landing-page
+# AutoAvail for GCal
 
-# autoAvail for GCal
+## About AutoAvail for GCal
+AutoAvail for GCal is a Chrome extension that enhances email communication by integrating with Google Calendar to suggest available meeting times. When a user types "{availability}" while composing an email, the extension instantly retrieves their free time slots from their calendar and inserts them into the message. It also offers customizable settings, such as restricting availability to 9 AM - 5 PM on weekdays, ensuring users share only their preferred time windows.
 
-## About autoAvail for GCal
-autoAvail for GCal is a modern, AI-driven matchmaking service that revolutionizes how people find meaningful relationships. By combining AI technology with social matchmaking elements, we deliver a more effective, community-driven, and personalized approach to dating – all at less than 1/10th the cost of traditional matchmaking.
 
 Our platform offers:
-- AI-driven personalized matching
-- Group dates and curated social experiences
-- Community feedback integration
-- Continuous match improvement through real-time feedback
+- **Time-saving**: Automates the process of checking and listing available times, reducing manual effort.  
+- **Accuracy**: Pulls real-time data from Google Calendar to prevent scheduling errors or double-bookings.  
+- **Convenience**: Seamlessly integrates into the email composition flow with a simple trigger word.  
+- **Customizable**: Lets users define availability preferences, like 9-5 on weekdays, to match their work habits.  
+- **Productivity boost**: Speeds up meeting coordination, allowing users to focus on their core tasks.
 
 ## Project Structure
 - `USER-STORIES.md`: Contains detailed user stories and feature requirements
@@ -17,11 +17,6 @@ Our platform offers:
 - `assets/`: Contains SCSS and images
 - `content/`: Contains the site content
 - `themes/`: Contains the Hugo theme
-
-## Success Metrics
-- 48% of matches lead to second dates (triple Hinge's success rate)
-- 79% exchange contact information
-- 100% trust rate for future matches
 
 ## Development
 This site is built using:
@@ -34,7 +29,7 @@ This site is built using:
 bash
 brew install hugo
 2. Clone the repository
-git clone [[repository-url](https://github.com/Natalielim/hugo-mock-landing-page.git)]
-cd [repository-name]hugo-mock-landing-page
+git clone [[repository-url](https://github.com/Natalielim/autoavail.git)]
+cd [repository-name]autoavail
 3. Start the Hugo server
 hugo server
