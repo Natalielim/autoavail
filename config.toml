@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://natalielim.github.io/autoavail/'
 title = "AutoAvail"
 author = "Clyve Gassant, Hemosoo Woo, Natalie Lim, and Prithvi Bale"
 copyright = "Team 12, 2025"
@@ -11,7 +11,7 @@ copyright = "Team 12, 2025"
       Access-Control-Allow-Origin = "*"
 
 [development]
-  baseURL = "http://localhost:1313/"
+  baseURL = "https://natalielim.github.io/autoavail/"
 
 timeZone = 'America/New_York'
 
