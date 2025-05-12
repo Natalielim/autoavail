@@ -1,5 +1,29 @@
 {{ define "main" }}
 
+<style>
+.btn-bd-primary {
+    font-weight: 600;
+    color: #111 !important;
+    background: #fff !important;
+    border: 2px solid #fff !important;
+    border-radius: 2rem;
+    padding: 0.75rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 2px 16px 0 rgba(66,133,244,0.15);
+    transition: color 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
+}
+.btn-bd-primary:hover, .btn-bd-primary:focus {
+    color: #4285F4 !important;
+    border-color: #4285F4 !important;
+    background: #fff !important;
+}
+.bd-masthead {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+</style>
+
 <section class="section bd-masthead">
   <div class="container-xxl">
     <div class="col-md-8 mx-auto text-center my-5">
@@ -15,11 +39,11 @@
 <section class="section container my-3">
   {{ partial "features" . }}
 </section>
-
+{{/*  
 <section class="section container my-3">
   <h3 class="text-secondary text-center my-5">Recent Posts</h3>
   {{ partial "latest-posts" . }}
-</section>
+</section>  */}}
 
 {{/*  <section class="section container my-3">
   <h3 class="text-secondary text-center my-5">Featured Pages</h3>

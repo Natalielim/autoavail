@@ -14,20 +14,23 @@
 
     .btn-bd-primary {
         --bs-btn-font-weight: 600;
-        --bs-btn-color: #4285F4; // Google Blue for button text
-        --bs-btn-bg: var(--bd-dark-red); 
-        --bs-btn-border-color: var(--bd-dark-red);
+        --bs-btn-color: #fff; // White text
+        --bs-btn-bg: transparent; // Transparent background
+        --bs-btn-border-color: #fff; // White border
+        --bs-btn-border-width: 2px;
         --bs-btn-border-radius: 2rem;
         --bs-btn-padding-x: 2rem;
         --bs-btn-padding-y: 0.75rem;
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: var(--bd-light-red);
-        --bs-btn-hover-border-color: var(--bd-light-red);
-        --bs-btn-active-color: var(--bs-white);
-        --bs-btn-active-bg: var(--bd-light-red);
-        --bs-btn-active-border-color: var(--bd-light-red);
+        --bs-btn-hover-color: #4285F4; // Google Blue on hover
+        --bs-btn-hover-bg: #fff; // White background on hover
+        --bs-btn-hover-border-color: #fff;
+        --bs-btn-active-color: #4285F4;
+        --bs-btn-active-bg: #fff;
+        --bs-btn-active-border-color: #fff;
         text-transform: uppercase;
         letter-spacing: 0.05em;
+        box-shadow: 0 2px 16px 0 rgba(66,133,244,0.15);
+        transition: color 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
     }
 }
 
