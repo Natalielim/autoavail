@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "/Users/natalielim/Documents/GitHub/hugo-mock-landing-page-1",
+	"sourceRoot": "/Users/natalielim/Documents/Github/hugo-mock-landing-page-1",
 	"sources": [
 		"assets/sass/styles.scss"
 	],
